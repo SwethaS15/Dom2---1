@@ -71,8 +71,11 @@
         else if (bmi >= 25 && bmi <= 29.9){
             output.textContent="Your BMI is " + bmi  +" which means your OverWeight";
         }
-        else {
+        else if (bmi >=30){
             output.textContent="Your BMI is " + bmi  +" which means your obese";
+        }
+        else {
+            output.textContent="PLease enter your weight and height";
         }
     }
 </script>
